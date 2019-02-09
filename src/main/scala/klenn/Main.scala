@@ -3,5 +3,7 @@ package klenn
 object Main {
   def main(args: Array[String]): Unit = {
     println("Hello, World!")
+    val f = new Flickr(Array(""))
+    println(f.getPhotoIds)
   }
 }
